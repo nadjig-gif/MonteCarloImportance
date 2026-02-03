@@ -48,7 +48,7 @@ Results for  iterations:
 | **Importance** | Biased Sampling + Weighting | **Low** |
 
 
-## 💻 Compilation
+## How to Compile
 
 The source file **MCM_Importance.cpp** requires a C++20 compliant compiler.
 
@@ -61,4 +61,3 @@ g++ -std=c++20 MCM_Importance.cpp -o MCM_Importance
 
 ```
 
-Would you like me to extend the `ImportanceSampler` class to support **Stratified Sampling**, where the domain is divided into equal bins to further force a more uniform distribution of points?
